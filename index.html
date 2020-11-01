@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="NBA中国官方网站">
+    <meta name="keywords" content="NBA中国,全明星赛,NBA视频直播,NBA赛程,NBA转播表,火箭,热火,湖人,马刺">
+    <title>NBA官方网站</title>
+    <link rel="icon" href="image/favicon.ico">
+    <link rel="stylesheet" href="css/head.css" type="text/css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+</head>
+<body onload="onload()">
+<div>
+    <!--头部-->
+    <div class="head-block">
+        <div class="head-logo">
+            <img src="image/logo.png" height="65px">
+        </div>
+        <div class="head-menu">
+            <ul>
+                <li class="menuitem">首页</li>
+                <li class="menuitem">视频</li>
+                <li class="menuitem">新闻</li>
+                <li class="menuitem">图集</li>
+                <li class="menuitem">球队</li>
+                <li class="menuitem menuselect"><a href="player.html" style="color:white;text-decoration: none;">球员</a>
+                    <div class="menuplayer">
+                        <ul>
+                            <li>现役球员</li>
+                            <li>退役球员</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="menuitem">赛程</li>
+                <li class="menuitem">排名</li>
+                <li class="menuitem">数据</li>
+                <li class="menuitem">专题</li>
+                <li class="menuitem">更多</li>
+                <li class="menulogin"><a href="login.html"><img src="image/login.png"></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!--主体-->
+    <div style="width: 100%;height: 780px">
+        <!--内容主体-->
+        <div style="width: 1000px;height: 100%;background-color: white;margin:0 auto;">
+            <!--轮播图-->
+            <div class="scollblock">
+                <div class="scollimg">
+                    <ul class="ulimg" id="ulbanner">
+                        <li><img src="image/banner1.jpg"></li>
+                        <li><img src="image/banner2.jpg"></li>
+                        <li><img src="image/banner3.jpg"></li>
+                    </ul>
+                </div>
+                <div class="radius">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="pre" id="prebtn"><</div>
+                <div class="next" id="nextbtn">></div>
+            </div>
+            <!--要闻-->
+            <div class="news-block">
+                <div class="new-title">
+                    要闻
+                </div>
+                <div class="new-list" id="newlist"></div>
+            </div>
+            <!--最新资讯-->
+            <div class="newinfo">
+                <div class="newinfo-title">
+                    <h2>&emsp;&nbsp;&nbsp;最新资讯</h2>
+                    <hr>
+                </div>
+                <div class="first-row">
+                    <div class="imgblock">
+                        <span>特辑：“风尘四侠”詹韦瓜炮的场下兄弟情</span>
+                        <img src="image/new01.jpg">
+                    </div>
+                    <div class="imgblock">
+                        <span>观点：守业不易 勇士卫冕不代表高枕无忧</span>
+                        <img src="image/new02.jpg">
+                    </div>
+
+                </div>
+                <div class="second-row">
+                    <div class="imgblock2">
+                        <img src="image/new03.jpg">
+                        <span>特辑：“风尘四侠”詹韦瓜炮的场下兄弟情</span>
+                    </div>
+                    <div class="imgblock2">
+                        <img src="image/new04.jpg">
+                        <span>特辑：“风尘四侠”詹韦瓜炮的场下兄弟情</span>
+                    </div>
+                    <div class="imgblock2">
+                        <img src="image/new05.jpg">
+                        <span>特辑：“风尘四侠”詹韦瓜炮的场下兄弟情</span>
+                    </div>
+                </div>
+            </div>
+            <!--联盟排名-->
+            <div class="unionrank-block">
+                <div id="rankblock-first">
+                    <div id="unionrank">联盟排名</div>
+                    <div id="arearank">分区排名</div>
+                </div>
+                <div id="rankblock-second">
+                    <div id="eastunion"><img src="image/west.png" height="28px" style="vertical-align: middle">&nbsp;东部联盟</div>
+                    <div id="westunion"><img src="image/east.png" height="28px" style="vertical-align: middle">&nbsp;西部联盟</div>
+                </div>
+                <div id="rankdata">
+                    <table id="ranktable"></table>
+                </div>
+            </div>
+        </div>
+        主体
+    </div>
+
+    <!--底部-->
+    <div class="foot">底部</div>
+
+</div>
+
+<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>

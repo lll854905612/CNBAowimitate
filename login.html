@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="NBA中国官方网站">
+    <meta name="keywords" content="NBA中国,全明星赛,NBA视频直播,NBA赛程,NBA转播表,火箭,热火,湖人,马刺">
+    <title>NBA官方网站</title>
+    <link rel="icon" href="image/favicon.ico">
+    <link rel="stylesheet" href="css/head.css" type="text/css">
+    <link rel="stylesheet" href="css/login.css" type="text/css">
+</head>
+<body>
+<!--头部-->
+<div class="head-block">
+    <div class="head-logo">
+        <img src="image/logo.png" height="65px">
+    </div>
+    <div class="head-menu">
+        <ul>
+            <li class="menuitem"><a href="index.html">首页</a></li>
+            <li class="menuitem">视频</li>
+            <li class="menuitem">新闻</li>
+            <li class="menuitem">图集</li>
+            <li class="menuitem">球队</li>
+            <li class="menuitem menuselect">球员
+                <div class="menuplayer">
+                    <ul>
+                        <li>现役球员</li>
+                        <li>退役球员</li>
+                    </ul>
+                </div>
+            </li>
+            <li class="menuitem">赛程</li>
+            <li class="menuitem">排名</li>
+            <li class="menuitem">数据</li>
+            <li class="menuitem">专题</li>
+            <li class="menuitem">更多</li>
+            <li class="menulogin"><a href="login.html"><img src="image/login.png"></a></li>
+        </ul>
+    </div>
+</div>
+
+<!---->
+<div class="loginbody">
+    <p>账号密码登录</p>
+    <p>推荐使用快速安全登录，防止盗号</p>
+    <form id="loginform">
+        <input type="text" id="name" placeholder="输入QQ或手机号登录">
+        <br>
+        <input type="password" id="passwd" placeholder="密码">
+        <br>
+        <input type="button" width="100%" id="login" value="授权并登录" onclick="loginbtn()">
+        <br>
+    </form>
+</div>
+
+<!--底部-->
+<div class="foot">底部</div>
+<script language="JavaScript">
+    function loginbtn(){
+        var name = document.getElementById('name').value;
+        var passwd = document.getElementById('passwd').value;
+        if (name == "" || passwd == ""){
+            alert('用户名或者密码不能为空');
+        }
+        else if (name == "admin" && passwd == "123456"){
+            alert('登陆成功');
+        }
+        else {
+            alert('登陆失败');
+        }
+    }
+</script>
+</body>
+</html>

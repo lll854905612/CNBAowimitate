@@ -1,0 +1,20 @@
+.newbody{
+    width: 1000px;
+    margin: 10px auto;
+}
+
+.title{
+    text-align: center;
+    margin: 30px auto;
+}
+
+.dotted{
+    width: 80%;
+    border-top:1px dotted;
+    margin: 0 auto;
+}
+
+.imgcenter{
+    margin: 10px auto;
+    display: block;
+}

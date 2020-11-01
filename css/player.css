@@ -1,0 +1,84 @@
+.mainbody{
+    width: 1000px;
+    height: 600px;
+    margin: 10px auto;
+}
+
+.first-row{
+    width: 1000px;
+    height: 50px;
+    color: white;
+    font-size: 16px;
+    line-height: 50px;
+    padding-left: 20px;
+    background-color: #006bb7;
+    margin-top: 10px;
+}
+
+.nameselect{
+    width: 1000px;
+    height: 36px;
+    color: white;
+    font-size: 16px;
+    line-height: 50px;
+    padding-left: 20px;
+    background-color: #002f50;
+    margin: 0px auto;
+}
+
+.nameselect span{
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.nameselect span:hover{
+    background-color: darkgray;
+    color: black;
+}
+
+.contryselect{
+    width: 1000px;
+    height: 56px;
+    color: white;
+    font-size: 16px;
+    line-height: 50px;
+    padding-left: 20px;
+    background-color: #002f50;
+    margin: 0px auto;
+}
+
+.datarow{
+    width: 100%;
+    margin: 0px auto;
+    color: black;
+}
+
+table{
+    width: 1020px;
+    border: 0px;
+    cellspecial: 0;
+    cellpadding: 0;
+}
+table th{
+    background-color: #006bb7;
+    color: white;
+}
+table tr{
+    background-color: #e5e5e5;
+    line-height: 30px;
+}
+table tr:nth-child(odd){
+    background-color: #b9b9b9;
+}
+table tr:nth-child(even){
+    background-color: #e5e5e5;
+}
+table tr:hover{
+    background-color: #777777;
+    cursor: pointer;
+}
